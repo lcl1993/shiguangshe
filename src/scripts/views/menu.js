@@ -91,7 +91,7 @@ SPA.defineView('menu', {
               myScroll.scrollTo(0, -scrollSize);
               head.removeClass('up');
           } else if (this.y >= 0) {
-              head.attr('src', '/course-footballSNS/images/ajax-loader.gif');
+              head.attr('src', '/shiguangshe/images/ajax-loader.gif');
               // ajax下拉刷新数据
 
               $.ajax({
@@ -106,7 +106,7 @@ SPA.defineView('menu', {
 
                   myScroll.scrollTo(0, -scrollSize);
                   head.removeClass('up');
-                  head.attr('src', '/course-footballSNS/images/arrow.png');
+                  head.attr('src', '/shiguangshe/images/arrow.png');
                 }
               })
 
@@ -120,7 +120,7 @@ SPA.defineView('menu', {
               myScroll.scrollTo(0, self.maxScrollY + scrollSize);
               foot.removeClass('down')
           } else if (maxY >= 0) {
-              foot.attr('src', '/course-footballSNS/images/ajax-loader.gif');
+              foot.attr('src', '/shiguangshe/images/ajax-loader.gif');
               // ajax上拉加载数据
 
               $.ajax({
@@ -136,7 +136,7 @@ SPA.defineView('menu', {
 
                   myScroll.scrollTo(0, self.y + scrollSize);
                   foot.removeClass('down');
-                  foot.attr('src', '/course-footballSNS/images/arrow.png');
+                  foot.attr('src', '/shiguangshe/images/arrow.png');
                 }
               });
           }
