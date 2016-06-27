@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>食光社</title>
+	<link rel="stylesheet" type="text/css" href="/shiguangshe/prd/styles/usage/app.css"/>
+	<script type="text/javascript">
+  //阻止整个页面随着scroll事件整体下拉
+    document.ontouchmove = function(e) {
+      if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+        e.preventDefault();
+      }
+    };
+	</script>
+</head>
+<body>
+	<script src="/shiguangshe/prd/scripts/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.m-index {
+  .l-container {
+    .m-home {
+      @include flexbox();
+      @include flex-direction(column);
+      header {
+        height:.44rem;
+        background:#889f6f;
+        ul {
+          @include flexbox();
+          li {
+            color:#fff;
+            text-align: center;
+            font-size: .2rem;
+            line-height: .44rem;
+            &:nth-child(1),
+            &:nth-child(3) {
+              width:.44rem;
+            }
+            &:nth-child(2) {
+              @include flex(1);
+            }
+          }
+        }
+      }
+      nav {
+        @include box-sizing(border-box);
+        @include border(1px 0 1px 0, #e5e5e5);
+        height:.4rem;
+        padding-left:.14rem;
+        color:#4b4b4b;
+        font-size: .14rem;
+        line-height: .4rem;
+      }
+      section {
+        @include box-sizing(border-box);
+        @include flexbox();
+        @include flex-direction(column);
+        @include border(1px 0 1px 0, #e5e5e5);
+        background: #fff;
+        margin:.14rem 0;
+        .circle-section-header {
+          @include border(0 0 1px 0, #e5e5e5);
+          @include flexbox();
+          height:.4rem;
+          width:100%;
+          background: #fff;
+          line-height: .4rem;
+          span {
+            @include flex(1);
+             font-size:.14rem;
+             &:nth-child(1) {
+               padding-left: .15rem;
+             }
+             &:nth-child(2) {
+               color:#c2c2c2;
+               text-align: right;
+               padding-right:.15rem;
+             }
+          }
+        }
+        .circle-sectionNav {
+          @include flex(1);
+          @include flexbox();
+          @include flex-direction(column);
+          width:100%;
+          .circle-list {
+            li {
+              @include flex(1);
+              @include box-sizing(border-box);
+              @include flexbox();
+              width:100%;
+              height:.64rem;
+              position: relative;
+              padding-left:.14rem;
+              em {
+                display: block;
+                width:.46rem;
+                height:.46rem;
+                @include border-radius(.23rem);
+                background: #c8cac9;
+                margin:.09rem .14rem .09rem 0;
+                img {
+                  position: absolute;
+                  top:.17rem;
+                  left:.22rem;
+                }
+              }
+              strong {
+                @include flex(1);
+                @include box-sizing(border-box);
+                padding:.12rem 0 .14rem .14rem;
+                @include border(0 0 1px 0, #e5e5e5);
+                font-size:.14rem;
+                b {
+                  display: block;
+                }
+                i {
+                  color:#a47c8b;
+                  font-weight: normal;
+                }
+                span {
+                  color:#a8a8a8;
+                  font-size:.12rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+}

@@ -1,0 +1,118 @@
+<div class="m-home">
+  <header class="home-header">
+    <ul>
+      <li class="yo-ico">&#xe635;</li>
+      <li>食光社</li>
+      <li class="yo-ico">&#xe657;</li>
+    </ul>
+  </header>
+  <div spa-widget="scroll" spa-widget="scroll" data-scroll-id="fixScroll">
+    <div>
+      <!-- <div class="head">
+        <img src="/shiguangshe/images/arrow.png" width="40" height="40"/>
+        <span>下拉刷新...</span>
+      </div> -->
+      <div class="swiper-container" id="home-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/shiguangshe/images/1.jpg"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="/shiguangshe/images/1.jpg"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="/shiguangshe/images/1.jpg"/>
+          </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <nav class="home-nav">
+        <div>
+          <b class="yo-ico">&#xe611;</b>
+          <b>发菜谱</b>
+        </div>
+        <div>
+          <b class="yo-ico">&#xe62b;</b>
+          <b>范一下</b>
+          <!-- <em>er</em> -->
+        </div>
+      </nav>
+      <ul class="list">
+        <li>食光扫盲</li>
+        <li>什么是圈子？</li>
+      </ul>
+      <section>
+        <div>
+          <header class="section-header" action-type="switch.tabs" data-tag="model">
+            <img src="/shiguangshe/images/line.jpg"/>
+            <i>饭范</i>
+            <b>&gt;</b>
+          </header>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              轻食午茶
+              <img src="/shiguangshe/images/1.png" alt="" />
+              ~没吃早餐午餐，1顿下午茶吃个过瘾！
+            </i>
+          </section>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              辣池火锅
+            </i>
+          </section>
+        </div>
+        <div>
+          <header class="section-header" action-type="switch.tabs" data-tag="circle">
+            <img src="/shiguangshe/images/line.jpg"/>
+            <i>强圈围观</i>
+            <b>&gt;</b>
+          </header>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              蜜糖的圈子
+            </i>
+          </section>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              宅与路上的圈子
+            </i>
+          </section>
+        </div>
+        <div>
+          <header class="section-header" action-type="switch.tabs" data-tag="menu">
+            <img src="/shiguangshe/images/line.jpg"/>
+            <i>菜谱</i>
+            <b>&gt;</b>
+          </header>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              肉松沙拉寿司卷
+            </i>
+          </section>
+          <section>
+            <img src="/shiguangshe/images/2.jpg"/>
+            <span></span>
+            <i>
+              快手做滑爽弹牙凉皮
+            </i>
+          </section>
+        </div>
+      </section>
+      <!-- <div class="foot">
+        <img src="/shiguangshe/images/arrow.png" width="40" height="40"/>
+        <span>上拉加载更多...</span>
+      </div> -->
+    </div>
+  </div>
+</div>

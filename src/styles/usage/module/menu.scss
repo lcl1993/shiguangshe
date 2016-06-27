@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.m-index {
+  .l-container {
+    .m-home {
+      @include flexbox();
+      @include flex-direction(column);
+      // iscroll pull to refresh
+      .head {
+        text-align: center;
+        height: .3rem;
+        line-height: .3rem;
+      }
+      .head img {
+        display: inline-block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms;
+        height: .15rem;
+        width: .15rem;
+      }
+      .up {
+        transform: rotate(360deg) !important;
+        -webkit-transform: rotate(360deg) !important;
+      }
+      .foot {
+        text-align: center;
+        height: .3rem;
+        line-height: .3rem;
+      }
+      .foot img {
+        display: inline-block;
+        /*transform: rotate(0deg);*/
+        /*-webkit-transform: rotate(0deg);*/
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms;
+        height: .15rem;
+        width: .15rem;
+      }
+      .down {
+        transform: rotate(180deg) !important;
+        -webkit-transform: rotate(180deg) !important;
+      }
+      .menu-section {
+        @include flexbox();
+        @include flex-direction(row);
+        @include box-sizing(border-box);
+        @include border(1px 0 1px 0, #e5e5e5);
+        margin-top: 0;
+        img {
+          &:nth-child(1) {
+            width:60%;
+            padding:.1rem .25rem .1rem .1rem;
+          }
+        }
+        .menu-img {
+          i {
+            display: block;
+            text-align: center;
+            padding-bottom: .1rem;
+            color:#ad8895;
+            width:.8rem;
+          }
+          img {
+            padding-top: .16rem;
+            width:86%;
+          }
+          p {
+            text-align: center;
+            font-size: .16rem;
+            color:#232323;
+            width:.8rem;
+            line-height: .18rem;
+            margin-left:.15rem;
+            letter-spacing: .02rem;
+          }
+        }
+      }
+    }
+  }
+}

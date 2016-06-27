@@ -1,0 +1,53 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li></li>
+      <li>菜谱</li>
+      <li class="yo-ico">&#xe669;</li>
+    </ul>
+  </header>
+  <div spa-widget="scroll">
+    <div>
+      <div class="head">
+        <img src="/shiguangshe/images/arrow.png" width="40" height="40"/>
+        <span>下拉刷新...</span>
+      </div>
+      <section class="menu-section">
+        <img src="/shiguangshe/images/3.jpg"/>
+        <div class="menu-img">
+          <img src="/shiguangshe/images/2.png"/>
+          <i>苏苏爱美食</i>
+          <p>蒜香黄金球</p>
+        </div>
+      </section>
+      <section class="menu-section">
+        <img src="/shiguangshe/images/3.jpg"/>
+        <div class="menu-img">
+          <img src="/shiguangshe/images/2.png"/>
+          <i>花事了的厨房手记</i>
+          <p>【酸汤肥牛】</p>
+        </div>
+      </section>
+      <section class="menu-section">
+        <img src="/shiguangshe/images/3.jpg"/>
+        <div class="menu-img">
+          <img src="/shiguangshe/images/2.png"/>
+          <i>一碗清汤</i>
+          <p>鲜掉眉毛的冬笋焖</p>
+        </div>
+      </section>
+      <section class="menu-section" ms-repeat-value="livelist">
+        <img ms-src="value[0].imgsrc1"/>
+        <div class="menu-img">
+          <img ms-src="value[1].imgsrc2" />
+          <i ms-text="value[0].i"></i>
+          <p ms-text="value[1].p"></p>
+        </div>
+      </section>
+      <div class="foot">
+        <img src="/shiguangshe/images/arrow.png" width="40" height="40"/>
+        <span>上拉加载更多...</span>
+      </div>
+    </div>
+  </div>
+<div>

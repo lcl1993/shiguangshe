@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.m-home {
+  @include flexbox();
+  @include flex-direction(column);
+  .model-section {
+    @include flex(1);
+    @include box-sizing(border-box);
+    @include border(1px 0 1px 0, #eee);
+    width:100%;
+    margin:.13rem 0;
+    background: #fff;
+    .model-section-top {
+      img {
+        margin:.16rem .07rem 0 .13rem;
+      }
+      span {
+        display: block;
+        font-size: .16rem;
+        color:222;
+      }
+      i {
+        color:#8aaa67;
+      }
+    }
+  }
+}

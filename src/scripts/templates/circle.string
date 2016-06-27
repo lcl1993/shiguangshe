@@ -1,0 +1,85 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li></li>
+      <li>圈子</li>
+      <li class="yo-ico">&#xe657;</li>
+    </ul>
+  </header>
+  <div spa-widget="scroll">
+    <div>
+      <nav>
+        我的圈子
+      </nav>
+      <section>
+        <header class="circle-section-header">
+          <span>最新圈子</span>
+          <span>全部</span>
+        </header>
+        <div class="circle-sectionNav">
+          <ul class="circle-list">
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>绿野仙踪olivia的圈子</b>
+                <i>10</i>
+                <span>人</span>
+              </strong>
+            </li>
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>小黑爱美食的圈子</b>
+                <i>9</i>
+                <span>人</span>
+              </strong>
+            </li>
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>小猪食册的圈子</b>
+                <i>25</i>
+                <span>人</span>
+              </strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <header class="circle-section-header">
+          <span>最热圈子</span>
+          <span>全部</span>
+        </header>
+        <div class="circle-sectionNav">
+          <ul class="circle-list">
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>望京SOHO吃货圈</b>
+                <i>1003</i>
+                <span>人</span>
+              </strong>
+            </li>
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>知食青年团</b>
+                <i>852</i>
+                <span>人</span>
+              </strong>
+            </li>
+            <li>
+              <em><img src="/shiguangshe/images/circle1.png"/></em>
+              <strong>
+                <b>水晶猴子的圈子</b>
+                <i>334</i>
+                <span>人</span>
+              </strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+  </div>
+<div>

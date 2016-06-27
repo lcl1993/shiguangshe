@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.m-index{
+  font-family: "楷体";
+  height:100%;
+  width:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .l-container{
+    @include flex(1);
+    width:100%;
+    overflow: hidden;
+    position: relative;
+  }
+  footer{
+    height:.44rem;
+    background: #efefef;
+    font-weight: 600;
+    @include border(1px 0 0 0, #d6d8cf);
+    @include box-sizing(border-box);
+    ul{
+      height:100%;
+      @include flexbox();
+      // line-height:.44rem;
+      li{
+        @include flex(1);
+        text-align: center;
+        color:#aaa;
+        i{
+          font-size: .16rem;
+        }
+        p{
+          font-size: .12rem;
+        }
+        &.active i,
+        &.active p{
+          color:#889f6f;
+        }
+      }
+    }
+  }
+}

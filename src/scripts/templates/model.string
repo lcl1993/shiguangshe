@@ -1,0 +1,46 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li></li>
+      <li>饭范</li>
+      <li class="yo-ico">&#xe669;</li>
+    </ul>
+  </header>
+  <div spa-widget="scroll">
+    <div>
+      <!-- <div class="head">
+        <img src="/shiguangshe/images/arrow.png" width="40" height="40"/>
+        <span>下拉刷新...</span>
+      </div> -->
+      <section class="model-section" ms-repeat-value="livelist">
+        <!-- <img ms-src="value[0].imgsrc1"/>
+        <div class="menu-img">
+          <img ms-src="value[1].imgsrc2" />
+          <i ms-text="value[0].i"></i>
+          <p ms-text="value[1].p"></p>
+        </div> -->
+        <div class="model-section-top">
+          <img src="/shiguangshe/images/model1.png"/>
+          <span>蜜糖</span>
+          <i>2016-06-22</i>
+        </div>
+        <!-- <p>
+          <i>
+            做菜赢奖品了，亲们来吧！
+            <img src="/shiguangshe/images/model2.png"/>
+          </i>
+        </p>
+        <div class="menu-img">
+          <img src="/shiguangshe/images/model2.jpg" />
+          <img src="/shiguangshe/images/model3.jpg" />
+          <img src="/shiguangshe/images/model4.jpg" />
+        </div>
+        <p>
+          <i class="yo-ico">&#xe61a;</i>
+          <i class="yo-ico">&#xe6f6;</i>
+          <i class="yo-ico">&#xe606;</i>
+        </p> -->
+      </section>
+    </div>
+  </div>
+</div>
